@@ -20,9 +20,7 @@ void createArray(struct myArray *a, int tSize, int uSize)
 void printArray(struct myArray *a)
 {
     for (int i = 0; i < a->used_size; i++)
-    {
         printf("%d\n", (a->ptr)[i]);
-    }
 }
 
 void setValue(struct myArray *a)

@@ -4,9 +4,7 @@
 void display(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
-    {
         printf("%d ", arr[i]);
-    }
     printf("\n");
 }
 
@@ -15,14 +13,12 @@ int insertion(int arr[], int capacity, int size, int element, int index)
 {
 
     if (size >= capacity)
-    {
         return -1;
-    }
+
     // Shift elements to right to make space for the new element
     for (int i = size - 1; i >= index; i--)
-    {
         arr[i + 1] = arr[i];
-    }
+
     // Inserting the new element at the specified index
     arr[index] = element;
     return 1;
@@ -43,9 +39,7 @@ int main()
         display(arr, size);
     }
     else
-    {
         printf("Insertion Failed. Array is Full.\n");
-    }
 
     return 0;
 }
