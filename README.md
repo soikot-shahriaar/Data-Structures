@@ -1,6 +1,6 @@
-# Data Structures and Algorithms 
+# Data Structures
 
-A comprehensive collection of Data Structures and Algorithms implementations in C, featuring both fundamental concepts and real-world project applications.
+A comprehensive collection of Data Structures implementations in C, featuring both fundamental concepts and real-world project applications.
 
 ## 📊 Data Structures
 
